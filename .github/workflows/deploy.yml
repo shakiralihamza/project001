@@ -34,4 +34,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: deploy through surge
-      run: surgge ./build jobless-party/surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build jobless-party/surge.sh --token ${{secrets.SURGE_TOKEN}}
