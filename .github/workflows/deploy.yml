@@ -27,8 +27,8 @@ jobs:
         node-version:12
     - name: Install yarn
       uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install # will run `yarn install` command
+      with:
+        cmd: install # will run `yarn install` command
     - name: BUild Reac App using yarn
       run: yarn build
     - name: Install Surge
